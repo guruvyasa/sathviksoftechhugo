@@ -1,9 +1,9 @@
 ---
 # Banner
 banner:
-  title: "Learn coding the right way HANDS ON"
+  title: "Learn coding the right way "
   content: "Learning to code is not a money-making exercise but a life changing experience. Let us help you realize this and become good software developers and humans"
-  image: "/images/banner.png"
+  image: "/images/coder.png"
   button:
     enable: true
     label: "Browse courses"
@@ -14,73 +14,159 @@ features:
   - title: "Why take courses at Sathvik Softech?"
     image: "/images/service-1.png"
     content: "At Sathvik Softech our motto is simple <strong>\"NO LIES\"</strong>. Here are some of the advantages of choosing us over other programming training institutes "
+
     bulletpoints:
-      - "100% live hands-on coding experience"
-      - "You will fall in love with coding and problem solving"
-      - "Working on live projects. No copy paste / mugging up coding"
-      - "1:1 mentoring for all & always"
-      - "Huge support from peers and faculty"
-      - "**Affordable price**. We believe education must be accessible for all"
+      - icon: "ph-thin ph-code-block" 
+        title: "Hands-on coding"
+        description: "100% live hands-on coding"
+        
+      - icon: "ph-thin ph-list-heart"
+        title: "Fall in love"
+        description : "With coding and problem solving"
+        
+      - icon: "ph-thin ph-desktop"
+        title: "Live projects"
+        description: "Build projects, no mugging up"
+        
+      - icon: "ph-thin ph-chalkboard-teacher" 
+        title: "Mentoring"
+        description: "Free 1:1 mentoring for all & always"
+
+      - icon: "ph-thin ph-currency-inr"
+        title: "Affordable"
+        description: "We believe education must be accessible for all"
+
+      - icon: "ph-thin ph-trend-up"
+        title: "Boost career"
+        description: "100% job assistance, constant growth"
+
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+
+coursessection:
+  title: "Popular Courses" 
+  description: "Here are some popular courses you may be interested in. We keep updating our courses regularly to be in sync with the IT industry. Make sure you check out the syllabus by visiting the details page"
+
+# Courses
+courses: 
+  - title: "Data Structures With C"
+    image: "/images/service-1.png"
+    summary: "Sharpen your problem solving skills and learn to ace coding interviews by understanding algorithms and data structures using C language."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "**Duration**: 1.5 months"
+      - "**Prior Exp**: Intermediate"
+      - "**Price**: &#8377; 6,000"
+     
     button:
       enable: true
       label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      link: "#"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "Python for AI/Data Science"
+    image: "/images/service-1.png"
+    summary: "This is the ideal course for beginners who want to kick-start their career in IT and experienced people too to switch roles. Here are some salient features"
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "**Duration**: 1 month"
+      - "**Level**: Beginner"
+      - "**Price**: &#8377; 5,000"
+     
     button:
-      enable: false
-      label: ""
-      link: ""
+      enable: true
+      label: "Get Started Now"
+      link: "#"
 
+  - title: "Programming foundations with C programming"
+    image: "/images/service-1.png"
+    summary: "Learn C programming language and master problem solving concepts along the way to build fast and stable apps."
+    bulletpoints:
+      - "**Duration**: 1 month"
+      - "**Level**: Beginner"
+      - "**Price**: &#8377; 3,000"
+    button:
+      enable: true
+      label: "Get Started Now"
+      link: "#"
 
-# Courses
-courses:
+  - title: "OOP with Java"
+    image: "/images/service-1.png"
+    summary: "Learn Java programming language and master OOP concepts along the way to build resilient softwares. Here are some salient features"
+    bulletpoints:
+      - "**Duration**: 1 month"
+      - "**Level**: Beginner"
+      - "**Price**: &#8377; 5,000"
+     
+    button:
+      enable: true
+      label: "Get Started Now"
+      link: "#"
+
+  - title: "Web Development Foundations"
+    image: "/images/service-1.png"
+    summary: "This is a short course covering HTML, CSS, JS and Nodejs. You can consider it a mini full stack JS course"
+    bulletpoints:
+      - "**Duration**: 1 month"
+      - "**Level**: Intermediate"
+      - "**Price**: &#8377; 5,000"
+     
+    button:
+      enable: true
+      label: "Get Started Now"
+      link: "#"
+
   - title: "Full Stack - MERN"
     image: "/images/service-1.png"
-    summary: "At Sathvik Softech our motto is simple <strong>\"NO LIES\"</strong>. Here are some of the advantages of choosing us over other programming training institutes "
+    summary: "Our MERN stack web development course is mainly based on MongoDB, ExpressJS, React/NextJS, NodeJS. Here are a few salient points about the course"
     bulletpoints:
-      - "This is bull shit"
-      - "You will fall in love with coding and problem solving"
-      - "Working on live projects. No copy paste / mugging up coding"
-      - "1:1 mentoring for all & always"
-      - "Huge support from peers and faculty"
-      - "**Affordable price**. We believe education must be accessible for all"
+      - "**Duration**: 2 months"
+      - "**Level**: Intermediate"
+      - "**Price**: &#8377; 12,000"
+     
     button:
-      enable: false
+      enable: true
       label: "Get Started Now"
       link: "#"
 
-  - title: "Python for AI"
+
+  - title: "Java Full Stack"
     image: "/images/service-1.png"
-    summary: "At Sathvik Softech our motto is simple <strong>\"NO LIES\"</strong>. Here are some of the advantages of choosing us over other programming training institutes "
+    summary: "If you wish to master OOP concepts with Java and also Javascript, this is the course you need to take. The course covers everything needed to build Java backed web apps"
     bulletpoints:
-      - "100% live hands-on coding experience"
-      - "You will fall in love with coding and problem solving"
-      - "Working on live projects. No copy paste / mugging up coding"
-      - "1:1 mentoring for all & always"
-      - "Huge support from peers and faculty"
-      - "**Affordable price**. We believe education must be accessible for all"
+      - "**Duration**: 3 months"
+      - "**Level**: Intermediate"
+      - "**Price**: &#8377; 17,000"
+     
     button:
-      enable: false
+      enable: true
       label: "Get Started Now"
       link: "#"
+
+  - title: "Devops Crash Course"
+    image: "/images/service-1.png"
+    summary: "Master all technologies needed to become a devops engineer. This covers Linux, Git, CI/CD with Jenkins/Github actions, Jira, Hosting in AWS/Azure"
+    bulletpoints:
+      - "**Duration**: 1.5 months"
+      - "**Level**: Intermediate"
+      - "**Price**: &#8377; 7,000"
+     
+    button:
+      enable: true
+      label: "Get Started Now"
+      link: "#"
+
+  - title: "Cyber Security Crash Course"
+    image: "/images/service-1.png"
+    summary: "Become proficient in Security aspects learning Linux, common attacks and mitigation strategies like firewall configuring etc. This also includes penetration testing with Python"
+    bulletpoints:
+      - "**Duration**: 1.5 months"
+      - "**Level**: Intermediate"
+      - "**Price**: &#8377; 7,000"
+     
+    button:
+      enable: true
+      label: "Get Started Now"
+      link: "#"
+
 ---

@@ -14,13 +14,13 @@
   <h4 class="mb-3">
     <a href="{{ .RelPermalink }}">{{ .title }}</a>
   </h4>
-  <p class="mb-4">
+  <p class="mb-4 text-justify">
     {{ .summary }}
   </p>
   <ul>
     {{ range .bulletpoints }}
       <li class="relative mb-4 pl-6 text-left">
-        <i class="fa fa-check absolute left-0 top-1.5"></i>
+        <i class="fa fa-solid fa-circle absolute left-0 top-1.5"></i>
         {{ . | markdownify }}
       </li>
     {{ end }}

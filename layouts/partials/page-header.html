@@ -1,9 +1,15 @@
-<section>
-  <div class="container text-center">
-    <div
-      class="from-body to-theme-light dark:from-darkmode-body dark:to-darkmode-theme-light rounded-2xl bg-gradient-to-b px-8 py-14">
-      <h1>{{ T (printf "%s" (lower .Title)) | default .Title | title }}</h1>
-      {{ partial "components/breadcrumb" (dict "Context" . "Class" "mt-6") }}
+<!-- page title -->
+<section class="page-title-section overlay" style="background-image: url('{{ .Params.Bg_image | relURL}}'),url('{{`images/backgrounds/page-title.jpg`| relURL}}');" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{{ site.BaseURL | absLangURL }}">{{ site.Params.home }}</a></li>
+          <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
+          <li class="list-inline-item text-white h3 font-secondary">{{ .Title }}</li>
+        </ul>
+        <p class="text-lighten">{{ .Params.Description | markdownify }}</p>
+      </div>
     </div>
   </div>
 </section>
