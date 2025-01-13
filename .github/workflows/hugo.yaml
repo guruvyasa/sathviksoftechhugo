@@ -72,3 +72,4 @@ jobs:
           publish_dir: ./public
           external_repository: satviksoftech/satviksoftech.github.io
           publish_branch: main
+          force_orphan: true
