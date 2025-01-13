@@ -54,7 +54,7 @@ jobs:
             --baseURL "https://satviksoftech.github.io/"
 
       - name: Upload artifact
-          uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v2
         with: 
           path: ./public
 
@@ -68,7 +68,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.TOKEN }}
+          personal_token: ${{ secrets.TOKEN }}
           publish_dir: ./public
           external_repository: https://satviksoftech.github.io
           publish_branch: main
