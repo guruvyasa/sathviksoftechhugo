@@ -70,5 +70,5 @@ jobs:
         with:
           personal_token: ${{ secrets.TOKEN }}
           publish_dir: ./public
-          external_repository: https://satviksoftech.github.io
+          external_repository: satviksoftech/satviksoftech.github.io
           publish_branch: main
