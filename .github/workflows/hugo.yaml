@@ -22,14 +22,9 @@ jobs:
         with:
           node-version: '20.x'      
       - name: Clean npm cache
-        run: |
+        run: |  
           npm cache clean --force
-          rm -f /opt/hostedtoolcache/node/20.18.1/x64/bin/npx
-      - name: Install npm and npx
-        run: |
-          npm install -g npm@latest
-          npm install -g npx
-      
+
       - name: Verify NPX Installation
         run: |
           which npx
