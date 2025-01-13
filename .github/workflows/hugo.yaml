@@ -30,11 +30,14 @@ jobs:
           which npx
           npx --version
 
-      - name: Install dependencies
+      - name: Setup project
         run: |
           npm run project-setup
-          npm install 
 
+      -name: Install dependencies
+        run: |
+          npm install 
+          
       - uses: actions/checkout@v3
         - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.6.0
