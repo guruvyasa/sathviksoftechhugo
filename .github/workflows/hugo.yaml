@@ -22,6 +22,16 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Install npm and npx
+        run: |
+          npm install -g npm@latest
+          npm install -g npx
+      
+      - name: Verify NPX Installation
+        run: |
+          which npx
+          npx --version
+
       - name: Install dependencies
         run: npm install postcss postcss-cli autoprefixer
 
