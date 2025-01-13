@@ -18,9 +18,9 @@ jobs:
       HUGO_VERSION: 0.121.0
     steps:
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20.x'
 
       - name: Install npm and npx
         run: |
