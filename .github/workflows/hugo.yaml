@@ -31,20 +31,25 @@ jobs:
           npx --version
 
       - name: Install dependencies
-        run: npm install postcss postcss-cli autoprefixer
+        run: |
+          npm run project-setup
+          npm install 
 
       - uses: actions/checkout@v3
-      - name: Setup Hugo
+        - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.6.0
         with:
           hugo-version: '0.121.0'
           extended: true
       - uses: actions/checkout@v3
       - name: Build with Hugo
-        run: |
+        run: 
           hugo \
             --gc \
             --minify \
+            --templateMetrics \
+            --templateMetricsHints \
+            --forceSyncStatic \
             --baseURL "https://satviksoftech.github.io/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
