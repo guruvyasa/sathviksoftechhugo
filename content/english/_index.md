@@ -7,11 +7,11 @@ banner:
   button:
     enable: true
     label: "Browse courses"
-    link: "https://github.com/zeon-studio/hugoplate"
+    link: "/course"
 
 # Features
 features:
-  - title: "Why take courses at Sathvik Softech?"
+  - title: "Why take <span class='text-orange-400'> courses </span> at Sathvik Softech?"
     image: "/images/service-1.png"
     content: "At Sathvik Softech our motto is simple <strong>\"NO LIES\"</strong>. Here are some of the advantages of choosing us over other programming training institutes "
 
@@ -20,9 +20,9 @@ features:
         title: "Hands-on coding"
         description: "100% live hands-on coding"
         
-      - icon: "ph-thin ph-list-heart"
-        title: "Fall in love"
-        description : "With coding and problem solving"
+      - icon: "ph-thin ph-users-three"
+        title: "Expert Trainers"
+        description : "With teaching and industry experience"
         
       - icon: "ph-thin ph-desktop"
         title: "Live projects"
@@ -34,7 +34,7 @@ features:
 
       - icon: "ph-thin ph-currency-inr"
         title: "Affordable"
-        description: "We believe education must be accessible for all"
+        description: "Empathy with high quality is our motto"
 
       - icon: "ph-thin ph-trend-up"
         title: "Boost career"
@@ -47,7 +47,7 @@ features:
 
 
 coursessection:
-  title: "Popular Courses" 
+  title: "Popular <span class='text-orange-400'>Courses</span>" 
   description: "Here are some popular courses you may be interested in. We keep updating our courses regularly to be in sync with the IT industry. Make sure you check out the syllabus by visiting the details page"
 
 # Courses
@@ -62,8 +62,8 @@ courses:
      
     button:
       enable: true
-      label: "Get Started Now"
-      link: "#"
+      label: "View Details"
+      link: "/course/algorithms-datastructures-course"  
 
   - title: "Python for AI/Data Science"
     image: "/images/service-1.png"
@@ -75,7 +75,7 @@ courses:
      
     button:
       enable: true
-      label: "Get Started Now"
+      label: "View Details"
       link: "#"
 
   - title: "Programming foundations with C programming"
@@ -87,7 +87,7 @@ courses:
       - "**Price**: &#8377; 3,000"
     button:
       enable: true
-      label: "Get Started Now"
+      label: "View Details"
       link: "#"
 
   - title: "OOP with Java"
@@ -100,7 +100,7 @@ courses:
      
     button:
       enable: true
-      label: "Get Started Now"
+      label: "View Details"
       link: "#"
 
   - title: "Web Development Foundations"
@@ -109,24 +109,24 @@ courses:
     bulletpoints:
       - "**Duration**: 1 month"
       - "**Level**: Intermediate"
-      - "**Price**: &#8377; 5,000"
+      - "**Price**: &#8377; 6,000"
      
     button:
       enable: true
-      label: "Get Started Now"
+      label: "View Details"
       link: "#"
 
   - title: "Full Stack - MERN"
     image: "/images/service-1.png"
     summary: "Our MERN stack web development course is mainly based on MongoDB, ExpressJS, React/NextJS, NodeJS. Here are a few salient points about the course"
     bulletpoints:
-      - "**Duration**: 2 months"
+      - "**Duration**: 3 months"
       - "**Level**: Intermediate"
-      - "**Price**: &#8377; 12,000"
+      - "**Price**: &#8377; 18,000"
      
     button:
       enable: true
-      label: "Get Started Now"
+      label: "View Details"
       link: "#"
 
 
@@ -136,11 +136,11 @@ courses:
     bulletpoints:
       - "**Duration**: 3 months"
       - "**Level**: Intermediate"
-      - "**Price**: &#8377; 17,000"
+      - "**Price**: &#8377; 18,000"
      
     button:
       enable: true
-      label: "Get Started Now"
+      label: "View Details"
       link: "#"
 
   - title: "Devops Crash Course"
@@ -153,7 +153,7 @@ courses:
      
     button:
       enable: true
-      label: "Get Started Now"
+      label: "View Details"
       link: "#"
 
   - title: "Cyber Security Crash Course"
@@ -166,7 +166,37 @@ courses:
      
     button:
       enable: true
-      label: "Get Started Now"
+      label: "View Details"
       link: "#"
+
+
+reviewsection:
+
+  - title: "Amazing Experiences- <span class='text-orange-400'>Our Heroes Speak</span>"
+    description: Dont go by our word. Listen to some of our students who have achieved the impossible through their hard-work and our support. All our reviews are genuine. You can read more reviews <span class='btn btn-primary'>[here](https://g.co/kgs/RBzrhxJ)</span> 
+
+testimonials: 
+  - name: "Irayyah Hiremath"
+    avatar: "/images/testimonials/irayya.png"
+    company: "Trellisys.net"
+    salary: "9 LPA"
+    content: "I took admission in this institute for python’s programming for 1 month and 1 month for web development initially after completing the course I had learnt some basic fundamentals of programming under guidance of Mr Chandan Purohit Sir.. After I took Web development course after completing the course successfully designed some games. Way of teaching is very practical they solve problems by practical methods not by theoretical only. I thank to Chandan Sir because they focus on everyone they explain topics by comparing Daily life activities with innovative ideas and out of the box thinking. I would strongly recommend new students to adopt the classes here"
+
+  - name: "Abhishek Salimath"
+    avatar: "/images/testimonials/abhishek.png"
+    company: "Yucca IT Solutions"
+    salary: "4 LPA"
+    content: "I took Java Programming Class, and to be honest I really had a great experience. I understood the concepts easily. The teaching is very very good! I had fun learning and coding in this class! Great Quality of teaching. I also got placed in Yucca thanks to the recommendation by Chandan Sir.
+I would recommend this to anyone who wants to learn coding but don't have any knowledge on it. The hands-on coding session is really good"
+
+
+  - name: "Pavan Wadikar"
+    avatar: "/images/testimonials/pavan.png"
+    company: "AvantAI Fintech"
+    salary: "5 LPA"
+    content: "Course Python and full stack programming. A student can go from basic to advanced in one place best institute to learn python and javascript programming. Great way of learning programming and to be job ready. I got placed even though I had a bad academic record"
+
+
+
 
 ---

@@ -47,6 +47,7 @@ module.exports = {
       colors: {
         text: theme.colors.default.text_color.default,
         light: theme.colors.default.text_color.light,
+        highlight: theme.colors.default.text_color.highlight,
         dark: theme.colors.default.text_color.dark,
         primary: theme.colors.default.theme_color.primary,
         secondary: theme.colors.default.theme_color.secondary,

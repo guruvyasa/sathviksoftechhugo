@@ -2,7 +2,7 @@
   "colors": {
     "default": {
       "theme_color": {
-        "primary": "#121212",
+        "primary": "#00364e",
         "body": "#F6F6F6",
         "border": "#eaeaea",
         "theme_light": "#f6f6f6",
@@ -11,7 +11,8 @@
       "text_color": {
         "default": "#444444",
         "dark": "#0D1B2A",
-        "light": "#717171"
+        "light": "#717171",
+        "highlight":"#fcde5a"
       }
     },
     "darkmode": {
@@ -31,7 +32,7 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Open Sans:wght@400;600",
+      "primary": "Open Sans:wght@400;700",
       "primary_type": "serif",
       "secondary": "Lato:wght@500;900",
       "secondary_type": "serif"
