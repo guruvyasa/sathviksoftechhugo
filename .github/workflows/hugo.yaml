@@ -17,6 +17,14 @@ jobs:
     env:
       HUGO_VERSION: 0.121.0
     steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install postcss postcss-cli autoprefixer
+
       - uses: actions/checkout@v3
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.6.0
@@ -32,7 +40,7 @@ jobs:
             --baseURL "https://satviksoftech.github.io/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
-        with:
+        with: 
           path: ./public
 
   deploy:
